@@ -278,7 +278,7 @@ def get_cookie_and_activities(fetch_count):
             # 即时更新界面
             display_results(sorted_activities)
 
-        log_message("所有详细数据获取完成。")
+        log_message(f"{USER_NAME}同学你好！所有活动详细数据获取完成。")
 
     except TimeoutException:
         log_message(
