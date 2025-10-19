@@ -519,7 +519,7 @@ frame_table = ttk.Frame(root)
 frame_table.pack(padx=10, pady=5, fill=tk.BOTH, expand=True)
 
 columns = ("#1", "#2", "#3", "#4", "#5")
-tree = ttk.Treeview(frame_table, columns=columns, show="headings", height=10)
+tree = ttk.Treeview(frame_table, columns=columns, show="headings", height=20)
 
 style = ttk.Style()
 style.configure("Treeview", font=("Microsoft YaHei", 10))
